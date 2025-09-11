@@ -7,7 +7,7 @@ A URL da apliação funcionando para avaliação é https://chatai542.streamlit.
 - Bate-papo sobre filmes e séries 🎥📺
 - Histórico de mensagens mantido durante a sessão
 - Interface web simples e responsiva com Streamlit
-- Deploy fácil no Streamlit Community Cloud
+- Deploy no Streamlit Community Cloud
 
 ## 🛠️ Tecnologias
 - [Python](https://www.python.org/)
