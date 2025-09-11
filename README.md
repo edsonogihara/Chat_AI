@@ -16,7 +16,7 @@ A URL da apliação funcionando para avaliação é https://chatai542.streamlit.
 - [dotenv](https://pypi.org/project/python-dotenv/) (para rodar localmente)
 
 ## 📦 Instalação local
-Clone o repositório e instale as dependências:
+Clone o repositório, crie uma chave de API na OpenAI e instale as dependências:
 
 ```bash
 git clone https://github.com/seu-usuario/chatbot-filmes-series.git
