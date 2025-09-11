@@ -1,10 +1,8 @@
 from openai import OpenAI
 import os
-from dotenv import load_dotenv
 
-# Carregar variáveis do .env
-load_dotenv()
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+# Carregar chave da API
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 SYSTEM_PROMPT = """
 Você é um especialista em filmes e séries.
