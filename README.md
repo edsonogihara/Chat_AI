@@ -1,7 +1,7 @@
 # Chat_AI
 Projeto de chatbot em Python que utiliza a API da OpenAI para criar uma experiência de conversação em linguagem natural focada em filmes e séries. Implementado com Streamlit para interface web interativa.
 
-A URL da apliação funcionando para avaliação é https://chatai542.streamlit.app/
+A URL da apliação funcionando para avaliação https://chatai542.streamlit.app/
 
 ## 🚀 Funcionalidades
 - Bate-papo sobre filmes e séries 🎥📺
