@@ -19,7 +19,7 @@ for msg in st.session_state.messages:
         st.chat_message("assistant").write(msg["content"])
 
 # Input do usuário
-if prompt := st.chat_input("Pergunte algo sobre filmes ou séries..."):
+if prompt := st.chat_input("Pergunte algo sobre filmes ou séries....."):
     # Adicionar mensagem do usuário
     st.session_state.messages.append({"role": "user", "content": prompt})
     st.chat_message("user").write(prompt)
