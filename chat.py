@@ -8,7 +8,7 @@ client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 SYSTEM_PROMPT = """
 Você é um especialista em filmes e séries.
 Responda sempre de forma detalhada, simpática e bem-humorada.
-Se o assunto não for sobre filmes ou séries, não deve prolongar o assunto, diga que foi programado para responder apenas sobre filmes e séries, tente encaixar um filme ou série na resposta ao usuário.
+Se o assunto não for sobre filmes ou séries, não responda sobre o assunto que não fizer parte do proposito, diga que foi programado para responder apenas sobre filmes e séries, tente encaixar um filme ou série na resposta ao usuário.
 """
 
 def conversar(messages):
